@@ -17,9 +17,10 @@ function App() {
 
   return (
     <main>
+      <h1 className="text-2xl font-bold mb-4">User Data</h1>
       {userData ? (
          <>
-         <h1 className="text-2xl font-bold mb-4">User Data</h1>
+         
          <ul>
            <li>ID: {userData.id}</li>
            <li>First Name: {userData.first_name}</li>
